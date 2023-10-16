@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Leapfrog for LinkedIn</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .centered-button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button
+      class="centered-button"
+      onclick="window.location.href='https://chrome.google.com/webstore/detail/leapfrog-for-linkedin/cebjkdeabhiafpmbhjlbnpkpclomjgko'"
+    >
+      Go to International Jobs by Leapfrog
+    </button>
+    <script>
+      // on load, redirect to the chrome web store
+      window.onload = function () {
+        window.location.href =
+          'https://chrome.google.com/webstore/detail/leapfrog-for-linkedin/cebjkdeabhiafpmbhjlbnpkpclomjgko';
+      };
+    </script>
+  </body>
+</html>
