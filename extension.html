@@ -16,29 +16,28 @@
         margin: 0;
       }
 
-      .centered-button {
-        background-color: #4caf50;
-        border: none;
-        color: white;
-        padding: 20px 40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 8px;
+      .spinner {
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        border-top: 4px solid #3498db;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 2s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
       }
     </style>
   </head>
 
   <body>
-    <button
-      class="centered-button"
-      onclick="window.location.href='https://chrome.google.com/webstore/detail/leapfrog-for-linkedin/cebjkdeabhiafpmbhjlbnpkpclomjgko'"
-    >
-      Go to International Jobs by Leapfrog
-    </button>
+    <div class="spinner"></div>
     <script>
       // on load, redirect to the chrome web store
       window.onload = function () {
