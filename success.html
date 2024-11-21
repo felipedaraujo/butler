@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment successful, International Jobs by Leapfrog</title>
+    <meta name="author" content="Leapfrog" />
+    <meta
+      name="description"
+      content="Leapfrog is a Chrome extension designed to assist you in finding international job opportunities through LinkedIn."
+    />
+    <meta
+      property="og:description"
+      content="Leapfrog is a Chrome extension designed to assist you in finding international job opportunities through LinkedIn."
+    />
+    <meta
+      property="og:image"
+      content="https://leapfrog.works/public/preview.png"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="public/icon16.png" />
+    <style>
+      body {
+        margin: 0;
+        color: #333;
+        font-size: 16px;
+        background: #f4f4f4;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        color: #fff;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        background: linear-gradient(to bottom, #233b7b, #406ce1);
+      }
+
+      .left-section {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .left-content {
+        width: 500px;
+      }
+
+      .logo {
+        width: 50px;
+        margin-bottom: 30px;
+      }
+
+      h1 {
+        margin: 0 0 30px;
+        font-size: 2.5rem;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 1.5rem;
+        margin: 0px 0px 30px 0px;
+      }
+
+      .button-link {
+        display: inline-block;
+        cursor: pointer;
+        color: #233b7b;
+        background: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.2rem;
+        padding: 1rem 4rem;
+        border-radius: 40px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      .button-link:hover {
+        background: #e5e7eb;
+      }
+
+      /* Right section */
+      .right-section {
+        flex: 1;
+        display: flex;
+        color: #333;
+        font-weight: 500;
+        background: #fff;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .right-content {
+        width: 420px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .screehshot {
+        width: 100%;
+        max-width: 320px;
+      }
+
+      @media (min-width: 1060px) {
+        .container {
+          flex-direction: row;
+        }
+
+        .left-section,
+        .right-section {
+          height: 100%;
+          padding: 10rem 0px 0px;
+          align-items: flex-start;
+        }
+
+        .screehshot {
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Left section -->
+      <div class="left-section">
+        <div class="left-content">
+          <img src="public/logo.png" alt="Leapfrog Logo" class="logo" />
+          <h1>Payment successful</h1>
+          <p>
+            You can now return to LinkedIn and make the most of your premium
+            experience! <span>💃</span>
+          </p>
+          <a
+            class="button-link"
+            href="https://www.linkedin.com/jobs/collections/recommended"
+            >Go to LinkedIn</a
+          >
+        </div>
+      </div>
+
+      <!-- Right section -->
+      <div class="right-section">
+        <div class="right-content">
+          <p>
+            Open Leapfrog's popup anytime to view, update, or cancel your
+            membership!
+          </p>
+          <img class="screehshot"" src="public/manage-membership.png"
+          alt="Manage membership screenshot" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
