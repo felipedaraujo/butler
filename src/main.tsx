@@ -19,7 +19,7 @@ const root = ReactDOM.createRoot(document.getElementById('root')!)
 
 root.render(
   <StrictMode>
-    <BrowserRouter basename="https://leapfrog.works">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/extension" element={<Extension />} />
