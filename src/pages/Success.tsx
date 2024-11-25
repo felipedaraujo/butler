@@ -4,11 +4,7 @@ const PaymentSuccess = () => {
       {/* Left Section */}
       <div className="flex-1 flex items-center justify-center">
         <div className="text-white w-full max-w-lg px-4">
-          <img
-            src="public/logo.png"
-            alt="Leapfrog Logo"
-            className="w-12 mb-8"
-          />
+          <img src="logo.png" alt="Leapfrog Logo" className="w-12 mb-8" />
           <h1 className="text-4xl font-bold mb-8">Payment successful</h1>
           <p className="text-xl leading-relaxed mb-8">
             You can now return to LinkedIn and make the most of your premium
@@ -31,7 +27,7 @@ const PaymentSuccess = () => {
             membership!
           </p>
           <img
-            src="public/manage-membership.png"
+            src="manage-membership.png"
             alt="Manage membership screenshot"
             className="w-full max-w-xs md:max-w-none"
           />
