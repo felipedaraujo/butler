@@ -10,9 +10,9 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 import Review from './pages/Review'
 import Success from './pages/Success'
 import './index.css'
-import '@fontsource/open-sans'
 import '@fontsource/open-sans/300.css'
 import '@fontsource/open-sans/400.css'
+import '@fontsource/open-sans/500.css'
 import '@fontsource/open-sans/700.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root')!)
@@ -29,7 +29,6 @@ root.render(
         <Route path="/privacy" element={<PrivacyPolicy />} />
         <Route path="/review" element={<Review />} />
         <Route path="/success" element={<Success />} />
-
         <Route path="*" element={<Home />} />
       </Routes>
     </BrowserRouter>
